@@ -26,7 +26,7 @@ func arrayToString(a []int, delim string) string {
 }
 func main() {
 	a := app.New()
-	w := a.NewWindow("App")
+	w := a.NewWindow("mery")
 	label := widget.NewLabel("Hello, gib eine Zahl ein")
 	entry := widget.NewEntry()
 	labelFibo := widget.NewLabel(" ")
